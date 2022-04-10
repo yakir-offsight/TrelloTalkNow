@@ -36,4 +36,12 @@ const t = window.TrelloPowerUp.initialize({
 	}
 
 });
-debugger
+
+
+setTimeout(() => {
+	console.log('alerting');
+	t.alert({
+		message: 'Powering-Up, give us a second...'
+	});
+
+}, 1500);
