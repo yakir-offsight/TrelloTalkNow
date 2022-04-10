@@ -6,10 +6,11 @@ var onBtnClick = function (t, opts) {
 
 var onBtnClick = function (t, opts) {
 	console.log('Someone clicked the button', t, opts);
-	return t.popup({
-		title: "Estimation",
-		url: 'estimate.html'
-	});
+	return t.confetti();
+	// return t.popup({
+	// 	title: "Estimation",
+	// 	url: 'estimate.html'
+	// });
 };
 
 const t = window.TrelloPowerUp.initialize({
