@@ -14,8 +14,8 @@ var onBtnClick = function (t, opts) {
 console.log("Hello!");
 
 setInterval(() => {
-	var elm = document.getElementById('content');
-	console.log('elm is', elm);
+	//var elm = document.getElementById('content');
+	console.log(location.href);
 
 
 }, 3000);
