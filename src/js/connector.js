@@ -15,10 +15,10 @@ window.TrelloPowerUp.initialize({
 		return [{
 			// we can either provide a button that has a callback function
 			icon: {
-				dark: WHITE_ICON,
-				light: BLACK_ICON
+				dark: 'https://trello-members.s3.amazonaws.com/62527cb59e2a8f234011782e/b87c0a65ee0b19b00320a8d7fd271e49/50.png',
+				light: 'https://trello-members.s3.amazonaws.com/62527cb59e2a8f234011782e/b87c0a65ee0b19b00320a8d7fd271e49/50.png'
 			},
-			text: 'Callback',
+			text: 'Talk Now',
 			callback: onBtnClick,
 			condition: 'edit'
 		}]
