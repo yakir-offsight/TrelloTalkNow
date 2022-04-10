@@ -13,8 +13,12 @@ var onBtnClick = function (t, opts) {
 };
 console.log("Hello!");
 
-var elm = document.getElementById('content');
-console.log('elm is', elm);
+setInterval(() => {
+	var elm = document.getElementById('content');
+	console.log('elm is', elm);
+
+
+}, 3000);
 window.TrelloPowerUp.initialize({
 	'board-buttons': function (t, opts) {
 		return [{
