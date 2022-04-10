@@ -11,15 +11,8 @@ var onBtnClick = function (t, opts) {
 		url: 'estimate.html'
 	});
 };
-console.log("Hello!");
 
-setInterval(() => {
-	//var elm = document.getElementById('content');
-	console.log(location.href);
-
-
-}, 3000);
-window.TrelloPowerUp.initialize({
+const t = window.TrelloPowerUp.initialize({
 	'board-buttons': function (t, opts) {
 		return [{
 			// we can either provide a button that has a callback function
@@ -43,3 +36,5 @@ window.TrelloPowerUp.initialize({
 	}
 
 });
+
+console.log(JSON.stringify(t));
