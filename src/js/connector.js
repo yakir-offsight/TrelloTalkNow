@@ -12,7 +12,10 @@ window.TrelloPowerUp.initialize({
 	'board-buttons': function (t, opts) {
 		return [{
 			// we can either provide a button that has a callback function
-			icon: ICON,
+			icon: {
+				dark: ICON,
+				light: ICON
+			},
 			text: 'Talk Now',
 			callback: onBtnClick,
 			condition: 'edit'
