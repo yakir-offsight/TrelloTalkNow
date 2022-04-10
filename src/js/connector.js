@@ -12,6 +12,9 @@ var onBtnClick = function (t, opts) {
 	});
 };
 console.log("Hello!");
+
+var elm = document.getElementById('content');
+console.log('elm is', elm);
 window.TrelloPowerUp.initialize({
 	'board-buttons': function (t, opts) {
 		return [{
