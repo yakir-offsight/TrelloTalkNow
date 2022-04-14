@@ -20,7 +20,7 @@ function boardBar(t) {
 			alt: 'Leftmost',
 			position: 'left',
 		}, {
-			icon: ICON,
+			icon: 'https://toppng.com/uploads/preview/clickable-button-11550128821vvz86og3cm.png',
 			callback: (tr) => tr.popup({
 				title: 'appear_in_settings',
 				url: 'estimate.html',
