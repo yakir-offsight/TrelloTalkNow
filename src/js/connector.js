@@ -15,7 +15,7 @@ function boardBar(t) {
 		resizable: true,
 		title: 'Offsight',
 		actions: [{
-			icon: ICON,
+			icon: 'https://i0.wp.com/css-tricks.com/wp-content/uploads/2018/05/button.jpg',
 			url: 'https://localhost:3000/',
 			alt: 'Leftmost',
 			position: 'left',
