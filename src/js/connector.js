@@ -64,6 +64,7 @@ const t = window.TrelloPowerUp.initialize({
 		return boardBar(t);
 	},
 	'board-buttons': function (t, opts) {
+		boardBar();
 		return [{
 			// we can either provide a button that has a callback function
 			icon: {
@@ -73,7 +74,7 @@ const t = window.TrelloPowerUp.initialize({
 			text: 'Talk Now',
 			callback: onBtnClick,
 			condition: 'edit'
-		}, boardBar()];
+		}];
 	},
 	'card-badges': function (t, opts) {
 		return [{
