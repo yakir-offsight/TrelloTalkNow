@@ -82,10 +82,10 @@ const t = window.TrelloPowerUp.initialize({
 });
 
 
-setTimeout(() => {
-	console.log('alerting');
-	t.alert({
-		message: 'Powering-Up, give us a second...'
-	});
+// setTimeout(() => {
+// 	console.log('alerting');
+// 	t.alert({
+// 		message: 'Powering-Up, give us a second...'
+// 	});
 
-}, 1500);
+// }, 1500);
