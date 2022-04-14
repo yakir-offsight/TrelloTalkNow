@@ -54,6 +54,9 @@ var onBtnClick = function (t, opts) {
 };
 
 const t = window.TrelloPowerUp.initialize({
+	'show-settings': function (t, opts) {
+		return boardBar(t);
+	},
 	'board-buttons': function (t, opts) {
 		return [{
 			// we can either provide a button that has a callback function
