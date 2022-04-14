@@ -73,7 +73,7 @@ const t = window.TrelloPowerUp.initialize({
 			text: 'Talk Now',
 			callback: onBtnClick,
 			condition: 'edit'
-		}]
+		}, boardBar()];
 	},
 	'card-badges': function (t, opts) {
 		return [{
