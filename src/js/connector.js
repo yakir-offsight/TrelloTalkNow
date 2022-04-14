@@ -64,7 +64,6 @@ const t = window.TrelloPowerUp.initialize({
 		return boardBar(t);
 	},
 	'board-buttons': function (t, opts) {
-		boardBar();
 		return [{
 			// we can either provide a button that has a callback function
 			icon: {
