@@ -7,11 +7,11 @@ var onBtnClick = function (t, opts) {
 
 function boardBar(t) {
 	return t.boardBar({
-		url: 'https://public.offsight.work',
+		url: 'https://localhost:3000/pages/main',
 		args: { text: 'Hello' },
 		accentColor: '#F2D600',
 		height: 200, // initial height for iframe
-		callback: () => console.log('Goodbye.'),
+		callback: () => console.log('Goodbye from boardBar.'),
 		resizable: true,
 		title: 'Board Meeting',
 		actions: [{
