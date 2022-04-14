@@ -54,6 +54,12 @@ var onBtnClick = function (t, opts) {
 };
 
 const t = window.TrelloPowerUp.initialize({
+	'on-enable': function (t, options) {
+		console.log('on-enable');
+	},
+	'on-disable': function (t, options) {
+		console.log('on-disable');
+	},
 	'show-settings': function (t, opts) {
 		return boardBar(t);
 	},
