@@ -9,7 +9,7 @@ function boardBar(t) {
 	return t.boardBar({
 		url: 'https://localhost:3000/pages/main',
 		args: { text: 'Hello' },
-		accentColor: '#F2D600',
+		accentColor: '#00FFFF',
 		height: 80, // initial height for iframe
 		callback: () => console.log('Goodbye from boardBar.'),
 		resizable: true,
