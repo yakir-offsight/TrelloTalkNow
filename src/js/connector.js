@@ -48,8 +48,8 @@ function popup() {
 var onBtnClick = function (t, opts) {
 	console.log('Someone clicked the button', t, opts);
 	//return t.confetti();
-	return boardBar()
-	return popup();
+	return boardBar(t)
+	return popup(t);
 
 };
 
