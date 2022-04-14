@@ -13,10 +13,10 @@ function boardBar(t) {
 		height: 80, // initial height for iframe
 		callback: () => console.log('Goodbye from boardBar.'),
 		resizable: true,
-		title: 'Board Meeting',
+		title: 'Offsight',
 		actions: [{
 			icon: ICON,
-			url: 'https://google.com',
+			url: 'https://localhost:3000/',
 			alt: 'Leftmost',
 			position: 'left',
 		}, {
