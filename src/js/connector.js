@@ -5,7 +5,7 @@ var onBtnClick = function (t, opts) {
 };
 
 
-function boardBar() {
+function boardBar(t) {
 	return t.boardBar({
 		url: 'estimate.html',
 		args: { text: 'Hello' },
