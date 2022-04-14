@@ -7,7 +7,7 @@ var onBtnClick = function (t, opts) {
 
 function boardBar(t) {
 	return t.boardBar({
-		url: 'estimate.html',
+		url: 'https://public.offsight.work',
 		args: { text: 'Hello' },
 		accentColor: '#F2D600',
 		height: 200, // initial height for iframe
