@@ -25,7 +25,7 @@ function boardBar(t) {
 			callback: (tr) => tr.popup({
 				title: 'appear_in_settings',
 				url: 'estimate.html',
-				height: 66,
+				height: 80, // this is the minmum size trello allows
 			}),
 			alt: 'Second from left',
 			position: 'left',
