@@ -19,16 +19,18 @@ function boardBar(t) {
 			url: 'https://localhost:3000/',
 			alt: 'Leftmost',
 			position: 'left',
-		}, {
+		},
+		{
 			icon: 'https://toppng.com/uploads/preview/clickable-button-11550128821vvz86og3cm.png',
 			callback: (tr) => tr.popup({
 				title: 'appear_in_settings',
 				url: 'estimate.html',
-				height: 164,
+				height: 66,
 			}),
 			alt: 'Second from left',
 			position: 'left',
-		}, {
+		},
+		{
 			icon: ICON,
 			callback: () => console.log(':tada:'),
 			alt: 'Right side',
